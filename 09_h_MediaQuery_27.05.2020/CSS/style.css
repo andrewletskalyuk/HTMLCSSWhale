@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(236, 225, 225);
+    margin: 0;
+}
+
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(95, 151, 11);
+    justify-content: space-around;
+    padding: 0;
+}
+
+ul li {
+    height: 40px;
+    line-height: 40px;
+    width: 24%;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: hotpink;
+}
+
+main {
+    /* height: 400px; */
+    background-color: rgb(190, 216, 219);
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    padding: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+section {
+    padding: 30px;
+    border: 1px solid rgb(46, 57, 214);
+    background: lightblue;
+}
+
+
+/*ЦЕ ПРАВИЛА ДЛЯ ІНШИХ ПРИСТРОЇВ*/
+/*для телефонів - точка перелому для інших пристроїв*/
+@media (max-width: 568px) {
+    section {
+        display: none;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 0;
+        color: red;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    body {
+        background-color: green;
+    }
+    ul{
+        flex-direction: column;
+    }
+    ul li{
+        width: 100%;
+    }
+}
+
+/*планшети*/
+@media (MIN-WIDTH: 768PX) {
+    section {}
+
+    body {
+        background-color: red;
+    }
+}
+
+/*PC*/
+@media (min-width: 992px) {
+    body {
+        background-color: royalblue;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(156, 233, 68);
+    }
+}

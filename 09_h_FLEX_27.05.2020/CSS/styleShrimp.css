@@ -1,0 +1,37 @@
+.countainer {
+    height: 700px;
+    background-color: bisque;
+    display: flex; /*горизонтально - по любе вмістилися на одну лінію горизонтально*/
+    justify-content: space-around; /*відстані між елементами по горизонталі тут куча всього*/
+    /* align-items: flex-end; */ /*вирівнювання по вертикалі*/
+    /* flex-direction: row; /*напрямок початку*/
+    /*flex-wrap: wrap;  */
+    /*якщо не влазить, то переноситься на нову лінію*/
+     /*комбінація дірекшн і врап*/
+sp
+    /*гурпування рядків*/
+    /* align-content: space-around;  */
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+   /*  margin: auto; */
+}
+
+.green {
+    background-color: rgb(45, 185, 45);
+    order: -1; /*порядок блока в контейнері можна міняти їхній порядок*/
+}
+
+.red {
+    background-color: rgb(199, 0, 0);
+    /* align-self: flex-end; */ /*по вертикалі вирівнювання*/
+    align-self: flex-start;
+}
+
+.blue {
+    background-color: rgb(67, 67, 255);
+}
+
