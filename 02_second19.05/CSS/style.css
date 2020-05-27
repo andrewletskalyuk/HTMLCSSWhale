@@ -1,0 +1,118 @@
+/*селектори є багато 
+
+*/
+
+/** {
+    margin: 0;
+}*/
+
+@font-face {
+    font-family: 'LIBRARY 3 AM soft';
+    src: url('LIBRARY3AMsoft.woff2') format('woff2'),
+        url('LIBRARY3AMsoft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*селектор тегу */
+body {
+    background-color: rgb(132, 186, 204);
+    /*малюнки - важливо*/
+    /* background-image: url("../img/1.png"), url("../img/2.png"); */
+    /* background-size: 25%, 35%; */
+    /* background-repeat: no-repeat; *//*заборонити повторення*/
+    /* background-position: 100% 100%, left top; */
+    /* background-attachment: fixed;  *//*приєднуємо картинки*/
+    /* height: 800px; */
+    color: rgb(45, 82, 35);
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    text-shadow: 10px -5px 10px rgba(161, 87, 55, 0.5);
+    /*тінь від слова*/
+    color: rgb(221, 94, 55);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'LIBRARY 3 AM soft';
+}
+
+h2 {
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 black;
+}
+
+p {
+    line-height: 2;
+    /*міжрядковий інтервал або просто висота рядка*/
+    text-indent: 3%;
+    /*відступ по абзацу*/
+    text-align: justify;
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
+}
+
+i {
+    color: rgb(221, 94, 55);
+    letter-spacing: 3px;
+    /*font-style: italic;*/
+}
+
+span {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*для класу пишеться*/
+.valtron {
+    width: 50%;
+    /*50% від ширини висоиту краще не чіпати*/
+    background-color: rgb(65, 197, 53);
+    padding: 20px 40px 0px 30px;
+    /*внутрішній відступ*/
+    margin: 0 auto;
+    /*зовнішній відступ якщо блок поцентру по горизонталі початок зверху*/
+    border-radius: 20px 40px 0px 30px;
+    /*з лівого верхнього*/
+    border-top-color: lightcoral;
+    /*рамка*/
+    border-top-width: 5px;
+    border-top-style: dashed;
+
+    border-bottom: 10px double navy;
+
+    border: 2px solid black;
+    border-radius: 55px 15px 69px 25px;
+    -moz-border-radius: 55px 15px 69px 25px;
+    -webkit-border-radius: 55px 15px 69px 25px;
+    border: 0px solid #000000;
+
+    -webkit-box-shadow: 11px -85px 144px -30px rgba(0,0,0,0.47);
+    -moz-box-shadow: 11px -85px 144px -30px rgba(0,0,0,0.47);
+    box-shadow: 11px -85px 144px -30px rgba(0,0,0,0.47);
+}
+
+
+hr{
+    background-color: blue;
+    width: 30%;
+    border: none;
+    height: 3px;
+    margin: 10px 0;
+}
+
+.one{
+    background-image: url(../img/5.jpg);
+    background-attachment: fixed;
+}
+/*пріоритет селекторів
+вбудований стиль
+айді
+клас
+тег*/

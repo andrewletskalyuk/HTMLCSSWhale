@@ -1,0 +1,80 @@
+
+/*p{
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+}*/
+.one{
+    background-color: khaki;
+    width: 50%;
+    list-style-type: circle;
+    /*padding-left: 0;*/ /*маркер підсунувся*/
+    list-style-position: outside; /*ззвовні самого тексту*/
+}
+
+.two li{
+    background-color: gray;
+    list-style-type: square;
+}
+
+.two{
+    list-style-type: lower-alpha;
+    background-color: green;
+}
+
+.one li{
+    background-color: lightpink;
+    list-style-type: square;
+}
+
+.menu{
+    list-style-type: none;
+    width: 300px;
+    padding-left: 0cm;
+}
+
+.menu li{
+    height: 40px;
+    text-align: center;
+    margin-top: 1px;
+    background-color: pink;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: -1px 1px 5px 1px rgba(0, 0, 0, 5);
+    /* float: left; */
+}
+.with-img
+{
+    list-style-image: url(../img/1.jpg);
+}
+.first-li{
+    border-radius: 15px  15px 0 0;
+}
+
+/*при наведенні мишкою які стилі будуть додаватися*/
+.menu li:hover{
+    background-color: rgb(235, 111, 138);
+    color: gray;
+    cursor: grab;
+}
+
+.last-li{
+    border-radius: 0 0 15px  15px;
+}
+
+.custom-style{
+    list-style-type: none;
+   counter-reset: counter;
+}
+.custom-style li{
+   counter-increment: counterberfore;
+}
+.custom-style li::before
+{
+   content: counter(counterberfore)") - ";
+   font-weight: 900;
+   color: red;
+   font-size: 20px;
+}

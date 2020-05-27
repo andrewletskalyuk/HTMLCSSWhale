@@ -1,0 +1,25 @@
+p {
+    font-size: x-large;
+}
+
+.textAlign {
+    text-align: center;
+}
+
+.formulasAlignWithBackGround {
+    text-align: center;
+    background-color: rgb(12, 150, 150);
+    color: azure;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.pForDoc {
+    margin-left: 10px;
+}
+
+.pSymbols {
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(218, 7, 42);
+}

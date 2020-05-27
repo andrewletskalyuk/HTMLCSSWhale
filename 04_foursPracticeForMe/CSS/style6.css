@@ -1,0 +1,71 @@
+.imageWinter {
+    list-style-image: url(../img/icons/winter_16.png);
+    font-size: 22px;
+}
+
+.imageSpring {
+    list-style-image: url(../img/icons/spring_16.png);
+    font-size: 22px;
+
+}
+
+.imageSummer {
+    list-style-image: url(../img/icons/summer_16.png);
+    font-size: 22px;
+}
+
+.imageAutumn {
+    list-style-image: url(../img/icons/autumn_16.png);
+    font-size: 22px;
+}
+
+.ulImage {
+    list-style-image: url(../img/icons/arrow.png);
+    font-size: 22px;
+}
+
+
+.first-style {
+    list-style-type: none;
+    counter-reset: counter;
+}
+
+.first-style li {
+    counter-increment: counter;
+}
+
+.first-style li::before {
+    content: counter(counter,upper-roman)". ";
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.second-style {
+    list-style-type: none;
+    counter-reset: counter2;
+}
+
+.second-style li {
+    counter-increment: counter2;
+}
+
+.second-style li::before {
+    content: counter(counter2, decimal)". ";
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.third-style {
+    list-style-type: none;
+    counter-reset: counter3;
+}
+
+.third-style li {
+    counter-increment: counter3;
+}
+
+.third-style li::before {
+    content: counter(counter3, lower-alpha)". ";
+    font-weight: 900;
+    font-size: 20px;
+}

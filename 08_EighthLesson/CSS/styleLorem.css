@@ -1,0 +1,132 @@
+header {
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.first {
+    background-color: #0db5e4;
+}
+
+.img {
+    padding: 10px;
+}
+
+.img2 {
+    padding: 10px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.pDecor {
+    color: gray;
+    padding: 10px;
+}
+
+.pDecor1 {
+    color: gray;
+    text-align: center;
+}
+
+.buttonF {
+    background-color: #0eb4e4;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: seashell;
+    align-items: center;
+}
+
+.buttonF:hover {
+    background-color: rgb(9, 84, 128);
+}
+
+h2 {
+    color: gray;
+    padding: 10px;
+}
+
+h3 {
+    color: gray;
+    padding: 10px;
+}
+
+.h2Decor {
+    text-align: center;
+}
+
+.divDecorCenter {
+    text-align: center;
+}
+
+.div3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.img3 {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.pLeft {
+    float: left;
+    margin-right: 20px;
+}
+
+.pRight {
+    float: right;
+    margin-left: 20px;
+}
+
+.pDecor2 {
+    text-align: justify;
+    color: gray;
+    line-height: 1.5;
+}
+
+.divFirstDecor {
+    margin: 0px auto;
+}
+
+.pDecor3 {
+    text-align: justify;
+    color: gray;
+    line-height: 1.5;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.twoImages {
+    width: 47%;
+    padding: 5px;
+}
+
+.threeImages {
+    width: 30%;
+    padding: 5px;
+}
+
+.float-down {
+    float: inline-end;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thCenter{
+    text-align: center;
+    color: gray;
+    width: 50%;
+}
+.tdFomat{
+    text-align: justify;
+    padding: 10px;
+    color: gray;
+}

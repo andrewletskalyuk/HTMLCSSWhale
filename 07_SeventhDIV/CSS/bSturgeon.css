@@ -1,0 +1,51 @@
+.main{
+    height: 777px;
+    background-color: rgb(201, 29, 29);
+}
+
+.left-bar{
+    background-color: rgb(201, 160, 25);
+    height: 750px;
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.right-bar{
+    background-color: yellow;
+    height: 750px;
+    width: 76%;
+    float: right;
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.D-class{
+    background-color: greenyellow;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 31%;
+}
+
+.E-class{
+    background-color: blue;
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    height:88%;
+    float: left;
+    border: 1px solid black;
+}
+
+.F-class{
+    background-color: blueviolet;
+    width: 62%;
+    height:88%;
+    border: 1px solid black;
+    margin: 10px 10px 10px 0px;
+    float: right;
+}

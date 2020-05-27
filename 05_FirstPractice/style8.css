@@ -1,0 +1,30 @@
+body {
+    background-image: url(/eFirstPractice/img/wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.float-left+p {
+    /* overflow: hidden; він ховає скроли - вертає висоту батьківському контейнеру після float-left */
+    text-align: justify;
+}
+
+.float-left img {
+    /*обтікання по лівій стороні*/
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.clear {
+    /* очищує обтікання */
+    clear: both;
+    margin: 30px auto;
+    background-color: gray;
+    height: 0.5px;
+    border: lawngreen;
+}
+
+.alig{
+    text-align: center;
+}

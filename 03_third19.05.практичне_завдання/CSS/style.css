@@ -1,0 +1,18 @@
+span {
+    color: blue;
+    /* font-style: italic;
+    font-weight: bold;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration: double underline red;
+    text-transform: capitalize;
+    /*міняємо регістр*/
+    word-spacing: 10px;
+    /*відстань між словами*/ 
+}
+p{
+    background-color: rgb(245, 245, 179);
+    font-style: italic;
+    line-height: 2;
+}

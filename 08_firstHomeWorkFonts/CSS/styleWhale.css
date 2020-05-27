@@ -1,0 +1,75 @@
+h1,
+h3 {
+    font-family: "Library";
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "FontJoiner";
+    text-align: center;
+    font-style: italic;
+}
+
+.clear {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.pBake {
+    text-align: justify;
+    text-indent: 2cm;
+}
+
+.pEnded{
+    width: 200px;
+    text-align: left;
+    margin-left: 10px;
+    font-style: italic;
+    border-style: solid;
+    border-width: 0.01cm;
+    margin: 12px 12px 13px 13px;
+    padding: 5px;
+}
+
+.pPerfograma {
+    font-family: "Perfograma";
+    text-align: left;
+    margin-left: 100px;
+    text-decoration: underline;
+    font-style: none;
+}
+
+@font-face {
+    font-family: "LibrarySoft";
+    src: url("/08_firstHomeWorkFonts/fonts/Library_soft.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Library";
+    src: url("/08_firstHomeWorkFonts/fonts/Library.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FontJoiner";
+    src: url("/08_firstHomeWorkFonts/fonts/font.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Perfograma";
+    src: url("/08_firstHomeWorkFonts/fonts/Perfograma.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

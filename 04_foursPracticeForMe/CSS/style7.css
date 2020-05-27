@@ -1,0 +1,30 @@
+dt{
+    background-color: rgb(1, 70, 70);
+    color:  white;
+    padding: 0.5% 0.5% 0.5% 5%;
+    list-style-type: none;
+}
+
+dd{
+    background-color: rgb(0, 107, 107);
+    padding: 1% 1% 1% 2%;
+    color: white;
+    text-align: justify;
+    margin: 0; 
+}
+
+.firstLi {
+    list-style-type: none;
+    counter-reset: counterLI;
+    padding: auto;
+}
+
+.firstLi li {
+    counter-increment: counterLI;
+}
+
+.firstLi li::before {
+    content: "[" counter(counterLI, decimal)"] ";
+    font-weight: 777;
+    font-size: 16px;
+}

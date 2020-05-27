@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: gray;
+    overflow: hidden;
+    /*це лайф фак вона забираэ скроли*/
+    padding: 0px;
+    border-radius: 35px 0 35px 0;
+}
+
+.menu li {
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 24.5%;
+    text-align: center;
+    border-right: 1px outset gray;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 0;
+}
+
+/*наведення*/
+.nemu a:hover {
+    background-color: lightgray;
+}
+
+/*для дітей перша і остання*/
+.menu li:last-child {
+    border-right: none;
+}
+
+.menu img {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.icon {
+    background: url(../img/sprites.png);
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    background-position: -72px 0;
+}
+
+.icon-main {
+    background-position: -24px 0;
+}
+
+.icon-contact {
+    background-position: 0px 0;
+}
+
+.icon-about {
+    background-position: -48px 0;
+}
+
+
+.first,
+.down-menu {
+    list-style-type: none;
+    padding: 0%;
+    width: 300px;
+}
+
+.first li {
+    
+    background-color: green;
+    border-bottom: 1px solid turquoise;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.first a{
+    text-decoration: none;
+    color: maroon;
+}
+
+.down-menu{
+    width: 100%;
+    /*забираэмо*/
+    display: none;
+}
+
+.down-menu li{
+    background-color: saddlebrown;
+}
+
+.drop-down{
+    padding-right: 10px;
+}
+
+.drop-down span{
+    float: right;
+}
+
+.drop-down:hover .down-menu {
+    display: block;
+    z-index: 5;
+}
+
+.drop-down:hover span{
+    transform: rotate(90 deg);
+}
+
+.down-menu li:hover{ /*hover при наведенны*/
+    border: 1px solid black;
+    border-left: 3px rebeccapurple;
+    transform: scale(1.1);
+}

@@ -1,0 +1,63 @@
+.ball {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(29, 207, 13);
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 3 px black;
+
+    /* transition: 2s; */
+    transition-duration: 2s;
+   /*  transition-delay: 1s; */
+    /* transition-property: width, height; */
+}
+
+.container {
+    position: relative;
+    background-color:wheat;
+    height: 600px;
+}
+
+.ball:hover {
+    background-color: rgb(94, 94, 5);
+    /*  width: 130px;
+    height: 130px; */
+    transform: scale(2);
+    transform: translate(20px, 30px);
+    transform: rotate(180deg);
+    left: 0; /*зміна координат*/
+    top: 50%; /*зміна координат по топу і він йде по вертикалі*/
+}
+
+@keyframes some_anumation{
+    /* 0% {left: 0; bottom: 0;}
+    25%{left:25%; bottom: 25%; background-color: blue;}
+    50%{left:50%; bottom: 50%;}
+    100%{left:100%; bottom: 100%; background-color: purple;} */
+    from{left:0; bottom:0;}
+    to{
+        left:100%; bottom:100%;
+        background-color: black;
+        transform: scale(1.1);
+    }
+}
+.ball2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: some_anumation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse ;
+    animation-delay: 1s;
+    position: absolute; /*коли це включимо, тод*/
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+}
+.ball:hover{
+    animation-play-state: paused;
+}

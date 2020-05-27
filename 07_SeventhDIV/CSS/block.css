@@ -1,0 +1,46 @@
+.header {
+    height: 100px;
+    background-color: rgb(28, 88, 199);
+}
+
+body {
+    margin: 0px;
+}
+
+.left-bar {
+    background-color: rgb(202, 195, 99);
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+.right-bar {
+    background-color: darkslateblue;
+    height: 400px;
+    width: 20%;
+    float: right;
+}
+
+.main-bar{
+    height: 600px;
+    background-color: dodgerblue;
+    width: 55%;
+    margin-left: 21%;
+}
+
+h1{
+    margin: 0%;
+    text-align: center;
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 80px;
+}
+
+.content{
+    height: 100px;
+    background-color: hotpink;
+    width: 80%;
+    margin: 0 auto; /*вирівнювання*/
+}
