@@ -1,0 +1,31 @@
+.sizeOfPicture {
+    width: 18%;
+}
+
+.sizeOfPicture1 {
+    width: 50%;
+}
+
+li {
+    font-size: 14px;
+}
+
+.width {
+    width: 50%;
+}
+
+.indent {
+    margin-left: 50%;
+    color: lightslategrey;
+}
+
+.indent:hover {
+    color: black;
+}
+
+/* body {
+    background-image: url(../img/Ferrari-Logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+} */

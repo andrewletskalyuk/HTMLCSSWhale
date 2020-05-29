@@ -83,3 +83,48 @@ p {
     background-color: #fed269;
     height: 150px;
 }
+
+/*для телефонів - точка перелому для інших пристроїв*/
+@media (max-width: 568px) {
+    body{
+        background-color: rgb(180, 180, 78);
+    }
+    ul{
+        flex-direction: column;
+        margin: 0ch;
+    }
+    ul li{
+        width: 100%;
+    }
+    .oneH {
+        height: auto;
+        width: initial;
+    }
+    .twoM{
+        width: initial;
+    }
+    .hero{
+        height: 100px;
+        flex-direction: column;
+    }
+    .MainImageExtra{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        height: 200px;
+    }
+    .main{
+        width: 100%;
+        text-align: center;
+    }
+    .ImageAndExtra{
+        width: 100%;
+        height: 100px;
+    }
+    .Banner{
+        height: 50px;
+        align-items: center;
+        text-transform: uppercase;
+        color:black;
+    }
+}

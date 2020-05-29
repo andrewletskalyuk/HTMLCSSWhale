@@ -1,0 +1,75 @@
+.my-container {}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.my-nav {
+    justify-content: flex-end;
+}
+
+.andrii{
+    width: auto;
+    height: 1000px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 30px;
+    color: royalblue;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.container-img {
+    max-height: 163px;
+    height: 100%;
+}
+
+.features,
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.item {
+    padding: 30px;
+}
+
+.about {
+    background: royalblue url(../img/map.png);
+}
+
+.about-card {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.my-card {
+    padding: 30px 30px 15px 30px;
+}
+
+.about h2 {
+    color: white;
+}
+
+.my-li {
+    border: none !important;
+    font-size: 26px;
+    color: royalblue;
+    transition: 1s;
+}
+
+.my-li i:hover {
+    transform: scale(1.5);
+    transform: rotate(1.5);
+    color: white;
+}
