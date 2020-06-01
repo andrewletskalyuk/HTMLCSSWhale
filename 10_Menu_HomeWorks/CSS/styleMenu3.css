@@ -1,0 +1,18 @@
+.menu{
+    list-style-type: none;
+    width: 300px;
+    padding-left: 15px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 200;
+    border-radius: 0%;
+}
+
+.itemprop{
+    color: white;
+    background-color: #3f3f3f;
+}
+
+.itemprop:hover{
+    background-color: red;
+    color: white;
+}

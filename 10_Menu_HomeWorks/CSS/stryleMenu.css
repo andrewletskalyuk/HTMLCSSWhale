@@ -1,0 +1,67 @@
+body {
+    /* background-color: burlywood; */
+    margin: 15px;
+}
+
+a{
+    color: gray;
+}
+
+a:hover{
+    color: black;
+}
+.sizesOfItemMenu {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 0.1cm;
+}
+
+.css3 {
+    font-size: 50px;
+    font-weight: bolder;
+    /* background-color: burlywood; */
+}
+
+.container {
+    width: 50%;
+}
+
+.tl1 {
+    margin-left: 110px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+
+/* .opacityI {
+    opacity: 0.5;
+} */
+
+.bg1 {
+    background: #00c38d;
+}
+.bg1:hover{
+    opacity: 1;
+}
+.bg2 {
+    background-color: #eb5081;
+}
+
+.bg3 {
+    background-color: #52c1e4;
+}
+
+.bg4 {
+    background-color: #f8c74c;
+}
+
+.bg5 {
+    background-color: #e06dc4;
+}
+

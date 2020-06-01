@@ -1,0 +1,39 @@
+.container {
+    background-color: #0097be;
+    width: 30%;
+    height: 320px;
+    color: white;
+    justify-content: start;
+    border-radius: 0pc 20px 0 20px;
+}
+
+.vertical-menu a {
+    background-color: #0097be;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.liRow{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.vertical-menu a:hover {
+    background-color: #8bdbf0;
+}
+
+.menu {
+    font-family: "Gill Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 0 auto;
+    color: black;
+}
+
+.last {
+    margin-bottom: 20px;
+}
