@@ -1,0 +1,19 @@
+$width1: 95%;
+$width2: 48%;
+$primaryColor: rgb(71, 71, 206);
+$color: black;
+$blockWidth: 300px;
+$borderStyle: 2px solid $bgColor;
+
+.labelWH {
+    width: $width1;
+    height: 50px;
+}
+
+.width1 {
+    width: $width1;
+    text-align: center;
+}
+.widthButton{
+    width: $width2;
+}

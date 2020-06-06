@@ -1,0 +1,19 @@
+.marginThe{
+    margin: 10px;
+}
+.widthFirst{
+    width: 30%;
+}
+
+.heigthFirst{
+    height: 100px;
+}
+body{
+    margin: 0;
+    padding: 0%;
+}
+div{
+    margin: 0;
+    padding: 0%;
+}
+

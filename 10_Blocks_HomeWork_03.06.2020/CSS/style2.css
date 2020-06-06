@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+body{
+    border: 1px solid black;
+}
+
+.borderDashed{
+    border: 2px dashed green;
+    margin-bottom: 10px;
+}
+
+.textRed{
+    color: red;
+}
+
+.article1
+{
+    height: 100px;
+}
+
+.firstCon{
+    width: 65%;
+    margin: 10px;
+    padding: 0px;
+}
+.secondCol{
+    width: 30%;
+    margin: 10px;
+}

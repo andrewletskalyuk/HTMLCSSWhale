@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+}
+
+.one:not(.two) {
+  width: 300px;
+  background-color: #4747ce;
+  margin-bottom: 5px;
+  /* a:hover{
+      color: $hover;
+  } */
+}
+.one:not(.two) ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+.one:not(.two) ul li {
+  float: left;
+  margin-right: 10px;
+}
+.one:not(.two) a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.one:not(.two) a {
+  color: red;
+}
+.one:not(.two) a:visited {
+  color: red;
+}
+.one:not(.two) a:hover {
+  /*додай до батьківського*/
+  /*якщо хочу затемнити*/
+  color: #ffcccc;
+}
+.one:not(.two) a:active {
+  color: yellow;
+}
+
+.one:nth-child(2) {
+  background-color: red;
+}
+
+.two {
+  border: 2px solid red;
+  height: 150px;
+  width: 300px;
+}
+
+.one {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 10px 20px 30px 50px;
+}
+
+/*налаштовуємо # - це селектор для ID*/
+#main {
+  overflow: hidden;
+  /*дай висоту*/
+}
+#main div {
+  height: 100px;
+  background-color: #4747ce;
+  margin-bottom: 3px;
+  width: 12.5%;
+  margin-right: 5%;
+  float: left;
+}
+#main div:nth-child(6n) {
+  margin-right: 0;
+}
+
+div {
+  box-shadow: 1px 1px 1px 1px black;
+}

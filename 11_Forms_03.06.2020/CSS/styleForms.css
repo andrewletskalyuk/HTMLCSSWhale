@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(54, 43, 148);
+    font-family: Algerian;
+}
+.container{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.login{
+    background-color: transparent;
+    /* background-color: rgba(52,92,212,0.425); */
+    padding: 25px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: rgb(245, 228, 228);
+}
+
+span{
+    color: maroon;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    width: 93%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(54, 43, 148);
+    letter-spacing: 2px;
+    background-color: rgba(255,255,255,0.4);
+}
+
+input::placeholder{
+    font-size: 12px;
+    color: mediumpurple;
+    font-style: italic;
+
+}
+
+input[type="button"]
+{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid  rgb(54, 43, 148);
+    display: block;
+    margin: 10px auto 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input[type="button"]:focus
+{
+    outline: none;
+    transform: scale(1.1);
+}
+
+input[type="button"]:hover
+{
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.4);
+}
+
+.search{
+    margin-bottom: 30px;
+}
+
+.search form{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.4);
+    display: flex;
+    border-radius: 10px;
+}
+
+.search input{
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    
+}
+
+.search input:focus{
+    border: 1px solid rgb(71, 68, 68);
+    border-radius: 10px 0 0 10px;
+}
+
+.search input, .search button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+
+.search i{
+    color:  rgb(54, 43, 90);
+    font-size: 17px;
+}

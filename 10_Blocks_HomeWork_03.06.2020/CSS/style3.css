@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.first{
+    width: 64%;
+    margin: 2px 0px 2px 2px;
+}
+
+.second{
+    width: 34%;
+}
+
+.mrg{
+    margin: 2px 0px 2px 0px;
+}
+.wid{
+    width: 100%;
+}

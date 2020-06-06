@@ -1,0 +1,82 @@
+//@import "filename"
+@import "variables";
+@import "mixims";
+
+* {
+    margin: 0;
+}
+
+//comment
+// .one ul{
+//     list-style-type: none;
+// }
+
+.one:not(.two) {
+    width: $blockWidth;
+    //height: $blockWidth / 2;
+    background-color: $primaryColor;
+    margin-bottom: 5px;
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+
+        li {
+            float: left;
+            margin-right: 10px;
+        }
+    }
+
+    a {
+        @include linkStyle(#fafafa, 20px, normal); //тут всмалюємо mixin
+    }
+
+    @include reference(red, red, blue, yellow);
+}
+
+.one:nth-child(2) {
+    background-color: $bgColor;
+}
+
+.two {
+    border: $borderStyle;
+    height: $blockWidth / 2;
+    width: $blockWidth;
+}
+
+.one {
+    @include linkStyle($fontSz: 14px, $fontW: normal);
+    @include padding(10px 20px 30px 50px); //paddding починається зверху
+}
+
+/*налаштовуємо # - це селектор для ID*/
+#main {
+    overflow: hidden;
+    /*дай висоту*/
+
+    div {
+        height: 100px;
+        background-color: $primaryColor;
+        margin-bottom: 3px;
+        @include caclWidth(6, 5%);
+        float: left;
+    }
+}
+
+div {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0, 0.8);
+}
+
+
+ul{
+    @extend div;
+}
+
+.error{
+    color: $bgColor;
+}
+
+.warning{
+    @extend .error; /*наслідуємо клас ерор і додаємо свої налаштування*/
+    background-color: yellow;
+}

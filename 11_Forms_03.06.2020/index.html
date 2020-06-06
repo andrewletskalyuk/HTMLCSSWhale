@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="CSS/bootstrap.css" /> -->
+    <link rel="stylesheet" href="CSS/styleForms.css" />
+    <title>In forms our power</title>
+</head>
+
+<body>
+    <form>
+        <button>OK</button>
+        <button>OK</button>
+        <hr />
+        <h2>Input</h2>
+        <input value="Hello" />
+        <input type="button" value="Input button" />
+        <br />
+        <input type="email" placeholder="email" />
+        <input type="password" required placeholder="password" />
+        <br />
+        <input type="checkbox" id="one" value="C++" checked />
+        <label for="one">C</label>
+        <input type="checkbox" id="two" value="C++" checked />
+        <label for="two">C++</label>
+        <input type="checkbox" id="three" value="C++" checked />
+        <label for="three">C#</label>
+        <br />
+
+        <input type="radio" id="male" value="male" name="gender" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" value="female" name="gender" />
+        <label for="female">Female</label>
+
+        <br />
+
+        <input type="number" value="50" min="48" max="60" step="0.1" />
+        <input type="range" />
+
+        <br />
+
+        <input type="date" />
+        <input type="month" />
+        <input type="week" />
+        <input type="day" />
+        <input type="color" />
+        <input type="file" />
+        <input type="image" src="img/smart-home.png" />
+        <br />
+        <input type="submit" value="submit" /> /*підтвердження*/
+        <input type="reset" value="reset" /> /*для відновлення значень по замовчуванню*/
+
+        <br />
+        <fieldset>
+            <legend>Log in</legend>
+            <input type="text" />
+            <input type="password" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Log in</legend>
+            <input type="text" />
+            <input type="password" />
+        </fieldset>
+
+        <textarea rows="4" cols="40">
+        </textarea>
+        <br/>
+        <select size="2" multiple>
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+        </select>
+       
+    </form>
+    <form>
+        <input list="elementName"/>
+        <datalist id="elementName">
+            <option value="one">One</option>
+            <option>Two</option>
+            <option>Three</option>
+        </datalist>
+    </form>
+
+</body>
+
+</html>

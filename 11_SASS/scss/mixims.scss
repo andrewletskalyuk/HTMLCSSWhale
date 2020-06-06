@@ -1,0 +1,48 @@
+//домішки це шаблон функції
+@mixin linkStyle($colour: white, $fontSz, $fontW) {
+    text-decoration: none;
+    color: $colour;
+    font-size: $fontSz;
+    text-transform: uppercase;
+    font-weight: $fontW;
+    //ми можемо підставляти свої змінні
+}
+
+@mixin padding($pads...) {
+    //...довільна кількість параметрів
+    padding: $pads;
+}
+
+
+@mixin reference($colorLink, $visited, $hover, $active) {
+    a {
+        color: $colorLink;
+
+        &:visited {
+            color: $visited;
+        }
+
+        &:hover {
+            /*додай до батьківського*/
+            /*якщо хочу затемнити*/
+            color: lighten($color: $colorLink, $amount: 40)
+        }
+
+        &:active {
+            color: $active;
+        }
+    }
+
+    /* a:hover{
+        color: $hover;
+    } */
+}
+
+@mixin caclWidth($blocks, $margin) {
+    width: ((100% - $margin * ($blocks - 1))/$blocks);
+    margin-right: $margin;
+
+    &:nth-child(#{$blocks}n) {
+        margin-right: 0;
+    }
+}
