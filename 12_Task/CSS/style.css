@@ -1,3 +1,153 @@
-/* properties */
-/* colors */
-/* fonts */
+* {
+  margin: 0, auto;
+}
+
+#menu {
+  background-color: #03a9f4;
+  height: 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #323538;
+  font-family: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.32px;
+}
+
+#menuWithoutButton {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  align-items: center;
+}
+#menuWithoutButton a {
+  color: white;
+}
+#menuWithoutButton a:hover {
+  color: #656a70;
+}
+
+.buttonsInMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+#imageLogo {
+  width: 249px;
+  height: 60px;
+}
+
+#hrFirstContainer {
+  background-color: #f75e2e;
+  width: 50px;
+  height: 3px;
+  text-align: left;
+}
+
+.my-nav {
+  justify-content: flex-end;
+}
+
+.header {
+  background-color: #03a9f4;
+  height: 101px;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 0.01px solid white;
+  padding: 10px;
+  background-color: #03a9f4;
+  color: white;
+}
+
+.buttonsZ {
+  width: 46px;
+  height: 9px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+  border: 2px solid #1088c7;
+  background-color: #0287c3;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+.buttonsQ {
+  width: 46px;
+  height: 9px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+  border: 2px solid #1088c7;
+  background-color: #0287c3;
+  color: white;
+  width: 100px;
+  height: 40px;
+  background-color: #f75e2e;
+  margin-left: 10px;
+}
+
+.buttonsZ:hover {
+  background-color: #026d90;
+}
+
+.buttonsQ:hover {
+  background-color: #d85a34;
+}
+
+.horizontal {
+  display: flex;
+  align-items: flex-end;
+  height: 500px;
+}
+
+.girlBackground {
+  background-image: url(../img/firstBackground.png);
+  height: 631px;
+}
+
+.blueEssays {
+  color: #03a9f4;
+  font-family: Poppins;
+  font-size: 47px;
+  font-weight: 800;
+  letter-spacing: -0.94px;
+  letter-spacing: -0.94px;
+  /* border-bottom: 2px solid gray; */
+}
+
+.blackEssays {
+  color: black;
+  font-family: Poppins;
+  font-size: 47px;
+  font-weight: 800;
+  letter-spacing: -0.94px;
+  letter-spacing: -0.94px;
+}
+
+.imageGirl {
+  float: right;
+}
+
+.hrIn {
+  width: 50px;
+  border: 4px solid #f75e2e;
+}
+
+.innerText {
+  width: 537px;
+  color: #656a70;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}

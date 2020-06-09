@@ -1,16 +1,124 @@
-/* properties */
-$boxshadow-Menu: 0 1px 5px rgba(0, 0, 0, 0.1);
+@import "variablesTask";
+@import "mixinsTask";
+
+* {
+    margin: 0, auto;
+}
+
+#menu {
+    background-color: $backgroundcolorMenu;
+    height: $heightMenu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include FirstMenuStyle;
+}
+
+#menuWithoutButton {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        color: $colorPlaceAnOrder;
+    }
+
+}
 
 
-/* colors */
-$background-colorMenu: #03a9f4;
-$background-colorSignIn: #0287c3;
-$background-colorOrder: #f75e2e;
-$colorPlaceAnOrder: #656a70;
 
-/* fonts */
-$font-familyMenu: "Poppins - Semi Bold";
-$font-familyText: Poppins;
-$letter-spacingMenu: 0.24px;
+.buttonsInMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#imageLogo {
+    @include LogoStyle;
+}
+
+#hrFirstContainer {
+    @include hrColor();
+    text-align: left;
+}
+
+.my-nav {
+    justify-content: flex-end;
+}
+
+.header {
+    background-color: $backgroundcolorMenu;
+    height: $heightMenu;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 0.01px solid white;
+    padding: 10px;
+    background-color: $backgroundcolorMenu;
+    color: white;
+}
+
+.buttonsZ {
+    @include Buttons;
+    width: 100px;
+    height: 40px;
+}
 
 
+.buttonsQ {
+    @include Buttons;
+    width: 100px;
+    height: 40px;
+    background-color: $backgroundcolorOrder;
+    margin-left: 10px;
+}
+
+.buttonsZ:hover {
+    background-color: rgb(2, 109, 144);
+}
+
+.buttonsQ:hover {
+    background-color: $backgroundcolorOrderHover;
+}
+
+.horizontal{
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+}
+
+.girlBackground {
+    background-image: url(../img/firstBackground.png);
+    height: 631px;
+}
+
+.blueEssays {
+    @include BlueBlack();
+    /* border-bottom: 2px solid gray; */
+}
+
+.blackEssays {
+    @include BlueBlack(black);
+}
+
+.imageGirl {
+    float: right;
+}
+
+.hrIn {
+    @include hrNeed();
+}
+
+.innerText {
+    width: 537px;
+    color: #656a70;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}

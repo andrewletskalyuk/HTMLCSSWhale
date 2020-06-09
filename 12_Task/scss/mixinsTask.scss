@@ -1,0 +1,48 @@
+@mixin FirstMenuStyle($color2: #323538, $fFamily1: "Poppins - Semi Bold", $fFamily2: "Museo Sans -700") {
+    color: $color2;
+    font-family: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+}
+
+@mixin Buttons{
+    width: 46px;
+    height: 9px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+    border: 2px solid #1088c7;
+    background-color: $backgroundcolorSignIn;
+    color: white;
+}
+
+@mixin LogoStyle {
+    width: 249px;
+    height: 60px;
+}
+
+@mixin BlueBlack($colorBlue:#03a9f4) {
+    color: $colorBlue;
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 800;
+    letter-spacing: -0.94px;
+    letter-spacing: -0.94px;
+}
+
+@mixin hrColor($color: #f75e2e) {
+    background-color: $color;
+    width: 50px;
+    height: 3px;
+}
+
+@mixin hrNeed($color: #f75e2e)
+{
+    width: 50px;
+    border: 4px solid $color;
+}
