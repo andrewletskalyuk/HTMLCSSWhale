@@ -1,0 +1,27 @@
+.outer:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    height: 177px;
+}
+
+.inner {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 44px;
+}
+
+.outer {
+    text-align: center;
+}
+
+.foo {
+    height: 122px;
+}
+.LR{
+    height: 555px;
+}
+.CN{
+    height: 617px;
+}
