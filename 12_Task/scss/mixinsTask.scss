@@ -1,6 +1,5 @@
-@mixin FirstMenuStyle($color2: #323538, $fFamily1: "Poppins - Semi Bold", $fFamily2: "Museo Sans -700") {
-    color: $color2;
-    font-family: white;
+@mixin FirstMenuStyle($color2: #323538, $fFamily1: "Poppins", $fFamily2: "Museo Sans -700") {
+    font-family: $fFamily1;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -8,7 +7,7 @@
     letter-spacing: 0.32px;
 }
 
-@mixin Buttons{
+@mixin Buttons {
     width: 46px;
     height: 9px;
     color: #ffffff;
@@ -26,10 +25,10 @@
     height: 60px;
 }
 
-@mixin BlueBlack($colorBlue:#03a9f4) {
+@mixin BlueBlack($colorBlue:#03a9f4, $fontS: 47px) {
     color: $colorBlue;
     font-family: Poppins;
-    font-size: 47px;
+    font-size: $fontS;
     font-weight: 800;
     letter-spacing: -0.94px;
     letter-spacing: -0.94px;
@@ -41,8 +40,15 @@
     height: 3px;
 }
 
-@mixin hrNeed($color: #f75e2e)
-{
+@mixin hrNeed($color: #f75e2e) {
     width: 50px;
     border: 4px solid $color;
+}
+
+@mixin caclWidth($blocks, $margin) {
+    width: ((100% - $margin * ($blocks - 1))/$blocks);
+    margin-right: $margin;
+    &:nth-child(#{$blocks}n) {
+        margin-right: 0;
+    }
 }

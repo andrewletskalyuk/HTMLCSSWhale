@@ -8,8 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #323538;
-  font-family: white;
+  font-family: "Poppins";
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -122,7 +121,6 @@
   font-weight: 800;
   letter-spacing: -0.94px;
   letter-spacing: -0.94px;
-  /* border-bottom: 2px solid gray; */
 }
 
 .blackEssays {
@@ -150,4 +148,42 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.buttonPlace {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 220px;
+  height: 50px;
+  background-color: #f75e2e;
+  border: 1px;
+  border-radius: 2%;
+}
+
+.mButtom {
+  margin-bottom: 45px;
+}
+
+.downMenu {
+  background-color: #03a9f4;
+  box-shadow: 0 4px 30px rgba(202, 202, 202, 0.15);
+  border-bottom: 2px solid gray;
+}
+
+#downMenuGirl {
+  overflow: hidden;
+}
+#downMenuGirl div {
+  height: 100px;
+  background-color: #03a9f4;
+  margin-bottom: 3px;
+  width: 21.25%;
+  margin-right: 5%;
+  float: left;
+}
+#downMenuGirl div:nth-child(4n) {
+  margin-right: 0;
 }
