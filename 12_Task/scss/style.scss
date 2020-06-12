@@ -100,16 +100,14 @@
 
 .blueEssays {
     @include BlueBlack();
-    
+
 }
 
 .blackEssays {
     @include BlueBlack(black);
 }
 
-.imageGirl {
-    float: right;
-}
+
 
 .hrIn {
     @include hrNeed();
@@ -137,18 +135,22 @@
     border-radius: 2%;
 }
 
-.mButtom{
+.mButtom {
     margin-bottom: 45px;
 }
 
-.downMenu{
+.downMenu {
     background-color: $backgroundcolorMenu;
     box-shadow: 0 4px 30px rgba(202, 202, 202, 0.15);
-    border-bottom: 2px solid gray; 
+    border-bottom: 2px solid gray;
+    position: absolute;
+    top: 640px;
+    width: auto;
 }
 
 #downMenuGirl {
     overflow: hidden;
+
     div {
         height: 100px;
         background-color: $backgroundcolorMenu;
@@ -156,4 +158,126 @@
         @include caclWidth(4, 5%);
         float: left;
     }
+}
+
+.forGirl {
+    position: relative;
+}
+
+.imageGirl {
+    position: absolute;
+    right: 20px;
+    top: 92px;
+    z-index: 100;
+}
+
+.buttonContinue {
+    width: 201px;
+    height: 50px;
+    background-color: #0287c3;
+    border: 1px solid gray;
+    color: white;
+    margin-top: 48px;
+}
+
+.plusAndMinus {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.inputPages {
+    border: 1px solid gray;
+    border-radius: 3%;
+    margin: 0;
+    height: 49px;
+    text-align: center;
+    width: 100px;
+}
+
+.imput {
+    width: 180;
+    height: 50px;
+    border-radius: 3px;
+    border: solid 1px #d8dadb;
+    background-color: #f6f9f9;
+}
+
+.widthB {
+    width: 180px;
+    height: 50px;
+    border-radius: 3px;
+    border: solid 1px #d8dadb;
+    background-color: #f6f9f9;
+}
+
+.Welcome {
+    position: relative;
+    top: 70px;
+    margin-left: 30px;
+}
+
+.siteMap {
+    width: 187px;
+    height: 13px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0287c3;
+}
+
+.secondPartAdvantages {
+    background-image: url(../img/backGroundBlue.png);
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    height: 600px;
+}
+
+.firstAd,
+.secondAd,
+.thirdAd {
+    width: 360px;
+    height: 312px;
+    box-shadow: 0px 4px 20px 0 rgba(202, 202, 202, 0.25);
+    background-color: #ffffff;
+    margin: 7px;
+}
+
+.textInAdvanteges {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1e2021;
+    width: 200px;
+}
+
+.placeAnOrder {
+    @include Buttons();
+    width: 280px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #0287c3;
+    margin-top: 37px;
+}
+
+.firstHow,
+.secondHow,
+.thirdHow {
+    width: 22%;
+    height: auto;
+    box-shadow: 0px 4px 20px 0 rgba(202, 202, 202, 0.25);
+    background-color: #ffffff;
+    
+    /* border-right: 2px solid #ccc; */
 }
