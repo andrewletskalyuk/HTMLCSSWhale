@@ -316,3 +316,104 @@
   background-color: #ffffff;
   /* border-right: 2px solid #ccc; */
 }
+
+.textIn {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.thirdPar {
+  background-image: url(../img/secondBackground.png);
+  position: relative;
+  text-align: center;
+  height: 600px;
+}
+
+.discountsF {
+  width: 620px;
+  box-shadow: 0 4px 30px rgba(202, 202, 202, 0.55);
+  background-color: #ffffff;
+}
+
+.tryOut {
+  width: 391px;
+  background-color: #03a9f4;
+}
+
+.off {
+  color: #f75e2e;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.pages {
+  color: #0287c3;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sizesOf {
+  width: 300px;
+  height: 235px;
+  border: 1px solid #d3d0d0;
+}
+
+.spsecond {
+  margin: 15px;
+  border-style: dashed;
+  width: 80%;
+  border: 2px dashed #0287c3;
+  border-radius: 5%;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  position: relative;
+}
+
+.offFifteen {
+  background-color: #0287c3;
+  border: 1px dashed white;
+  border-radius: 5%;
+}
+
+.fifteenPercent {
+  color: #e2f55d;
+  font-family: Poppins;
+  font-size: 62px;
+  font-weight: 900;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+.imgInF {
+  position: absolute;
+  top: 105px;
+  left: 20px;
+}
+
+.baloonF {
+  position: absolute;
+  top: 320px;
+  right: -50px;
+}
+
+.dTr {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.18px;
+  font-style: italic;
+}
