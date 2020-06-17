@@ -1,0 +1,44 @@
+.view {
+  background-image: url(../img/1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.8;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blanchedalmond;
+}
+
+.width {
+  width: 25%;
+}
+
+.widthI {
+  width: 49%;
+  margin: 0 auto;
+}
+
+.widthEmail, .widthQZ {
+  width: 100%;
+  text-align: left;
+}
+
+.widthQ {
+  width: 32.5%;
+}
+
+hr {
+  background-color: white;
+}
+
+.btnMya {
+  background: none;
+  width: 100%;
+  margin: 0px 20px 0 290px;
+}

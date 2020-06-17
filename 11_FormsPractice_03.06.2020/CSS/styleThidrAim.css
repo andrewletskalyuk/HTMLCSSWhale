@@ -1,0 +1,73 @@
+body {
+  background-color: #9eafb6;
+}
+
+header {
+  margin: 10px auto;
+  background-color: blue;
+  height: 100px;
+}
+
+.headerF,
+.headerZ {
+  color: white;
+  text-transform: capitalize;
+  margin: 10px auto;
+}
+
+.headerZ {
+  float: right;
+}
+
+.button1 {
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: #265e9e;
+  min-width: 100px;
+  color: white;
+}
+
+.economyClass {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-right: 10px;
+  min-width: 100px;
+}
+
+.filter {
+  margin-top: 20px;
+}
+
+.dehliTo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.textBlueForAll {
+  font-weight: bold;
+  color: #205dad;
+}
+
+label {
+  text-transform: capitalize;
+}
+
+.dehliText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+}
+
+hr:after {
+  content: "";
+  display: block;
+  margin-top: 2px;
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleThidrAim.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+
+    <title>Third successful tast</title>
+</head>
+
+<body>
+    <header class="container">
+        <h2 class="headerF align-middle">
+            flights - search list
+        </h2>
+        <span class="headerZ">
+            Home/flight search list
+        </span>
+    </header>
+    <div class="container bg-light">
+        <label>
+            <input type="radio" checked="checked" name="radio"> One way
+        </label>
+        <label>
+            <input type="radio" name="radio"> Round trip
+        </label>
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="container">
+            <div class="row">
+                <div class="input-group col">
+                    <input type="text" class="form-control" value="from">
+                    <div class="input-group-append bg-dark">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <div class="input-group col">
+                    <input type="text" class="form-control" value="to">
+                    <div class="input-group-append">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <div class="input-group col">
+                    <input type="date" value="Depart Date" class="form-control">
+                    <div class="input-group-append bg-dark">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <div class="input-group col">
+                    <input type="date" class="form-control" value="Return date">
+                    <div class="input-group-append bg-dark">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <div class="dropdown economyClass">
+                    <button class="btn dropdown-toggle economyClass" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown">
+                        Economy class
+                    </button>
+                    <div class="dropdown-menu economyClass" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">asdf</a>
+                        <a class="dropdown-item" href="#">wer</a>
+                        <a class="dropdown-item" href="#">asdgfasdf</a>
+                    </div>
+                </div>
+                <button class="button1">
+                    Search
+                </button>
+            </div>
+            <div class="row">
+                <div class="col-3 bg-white filter">
+                    <h3> <br> Filter</h3>
+                    <p class="textBlueForAll">No. of Stops</p>
+                    <!-- Default unchecked -->
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                        <label class="custom-control-label" for="defaultUnchecked">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                        <label class="custom-control-label" for="defaultUnchecked1">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked2">
+                        <label class="custom-control-label" for="defaultUnchecked2">Default unchecked</label>
+                    </div>
+                    <p></p>
+                    <p class="textBlueForAll">Price </p>
+                    <div class="row">
+                        <div class="col">
+                            <p>Min</p>
+                            <div class="input-group">
+                                <input type="text" class="form-control"
+                                    aria-label="Dollar amount (with dot and two decimal places)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p>Max</p>
+                            <div class="input-group">
+                                <input type="text" class="form-control"
+                                    aria-label="Dollar amount (with dot and two decimal places)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">$</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="textBlueForAll"><br> Airlines </p>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                        <label class="custom-control-label" for="defaultUnchecked3">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked4">
+                        <label class="custom-control-label" for="defaultUnchecked4">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked5">
+                        <label class="custom-control-label" for="defaultUnchecked5">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked6">
+                        <label class="custom-control-label" for="defaultUnchecked6">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked7">
+                        <label class="custom-control-label" for="defaultUnchecked7">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked8">
+                        <label class="custom-control-label" for="defaultUnchecked8">Default unchecked</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultUnchecked9">
+                        <label class="custom-control-label" for="defaultUnchecked9">Default unchecked</label>
+                    </div>
+                </div>
+                <div class="col bg-white dehliTo">
+                    <div class="container p-0">
+                        <div class="row bg-light dehliText">
+                            <p>Dehli to Sydney</p>
+                        </div>
+                    </div>
+                    <div class="container-fluid p-0 m-0">
+                        <table class="table table-hover">
+                            <thead class="text-center">
+                                <tr>
+                                    <th >Airlines</th>
+                                    <th >Departure</th>
+                                    <th >Duration</th>
+                                    <th >Arrival</th>
+                                    <th >Price</th>
+                                    <th ></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-center">
+                                    <td class="">IndiGo <p class="text-muted">6E-2489</p></td>
+                                    <td class="">23:30 <p class="text-muted">Dehli</p></td>
+                                    <td class="">18h 55m <p class="text-muted">non-stop</p></td>
+                                    <td class="">18:15 <p class="text-muted">Sydney</p></td>
+                                    <td class="" style="vertical-align: middle;">$980</td>
+                                    
+                                    <td><button class="button1">Book
+                                    </button><a href="#"><p>Flight details</p></a></td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="">IndiGo <p class="text-muted">6E-2489</p></td>
+                                    <td class="">23:30 <p class="text-muted">Dehli</p></td>
+                                    <td class="">18h 55m <p class="text-muted">non-stop</p></td>
+                                    <td class="">18:15 <p class="text-muted">Sydney</p></td>
+                                    <td class="" style="vertical-align: middle;">$980</td>
+                                    
+                                    <td><button class="button1">Book
+                                    </button><a href="#"><p>Flight details</p></a></td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="">IndiGo <p class="text-muted">6E-2489</p></td>
+                                    <td class="">23:30 <p class="text-muted">Dehli</p></td>
+                                    <td class="">18h 55m <p class="text-muted">non-stop</p></td>
+                                    <td class="">18:15 <p class="text-muted">Sydney</p></td>
+                                    <td class="" style="vertical-align: middle;">$980</td>
+                                    
+                                    <td><button class="button1">Book
+                                    </button><a href="#"><p>Flight details</p></a></td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="">IndiGo <p class="text-muted">6E-2489</p></td>
+                                    <td class="">23:30 <p class="text-muted">Dehli</p></td>
+                                    <td class="">18h 55m <p class="text-muted">non-stop</p></td>
+                                    <td class="">18:15 <p class="text-muted">Sydney</p></td>
+                                    <td class="" style="vertical-align: middle;">$980</td>
+                                    
+                                    <td><button class="button1">Book
+                                    </button><a href="#"><p>Flight details</p></a></td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="">IndiGo <p class="text-muted">6E-2489</p></td>
+                                    <td class="">23:30 <p class="text-muted">Dehli</p></td>
+                                    <td class="">18h 55m <p class="text-muted">non-stop</p></td>
+                                    <td class="">18:15 <p class="text-muted">Sydney</p></td>
+                                    <td class="" style="vertical-align: middle;">$980</td>
+                                    
+                                    <td><button class="button1">Book
+                                    </button><a href="#"><p>Flight details</p></a></td>
+                                </tr>
+                                <tr class="text-center">
+                                    <td class="">IndiGo <p class="text-muted">6E-2489</p></td>
+                                    <td class="">23:30 <p class="text-muted">Dehli</p></td>
+                                    <td class="">18h 55m <p class="text-muted">non-stop</p></td>
+                                    <td class="">18:15 <p class="text-muted">Sydney</p></td>
+                                    <td class="" style="vertical-align: middle;">$980</td>
+                                    
+                                    <td><button class="button1">Book
+                                    </button><a href="#"><p>Flight details</p></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
